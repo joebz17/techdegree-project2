@@ -87,7 +87,11 @@ img {
 .name {
   margin: 24px;
 }
-.skills {
+#skills {
+  background-color: white;
+}
+
+.my-skills {
   display: flex;
   justify-content: space-evenly;
   align-content: center;
@@ -96,6 +100,15 @@ img {
 }
 .contact {
   padding-top: 25px;
+}
+.icon-1 {
+  color: #ff5733;
+}
+.icon-2 {
+  color: #3370ff;
+}
+.icon-3 {
+  color: #ffe633;
 }
 
 .pcontact {
@@ -106,6 +119,13 @@ footer {
   justify-content: space-between;
   align-content: center;
   border-top: 1px solid #e7e7e7;
+}
+.backtop {
+  margin-left: auto;
+  margin-top: 25px;
+}
+.bottom-nav {
+  display: none;
 }
 
 /* MEDIA QUERIES*/
@@ -147,7 +167,27 @@ footer {
     text-align: left;
     padding-right: 15px;
   }
-}
+    .bottom-nav {
+    display: flex;
+    margin: 18px 0;
+    justify-content: flex-end;
+  }
+   .backtop {
+    display: none;
+  }
+    .name {
+    margin: 41px;
+    padding-top: 16px;
+  }
+  .bottom-nav {
+    justify-content: space-evenly;
+    margin: 26px;
+    padding: 15px;
+    margin-left: -47px;
+  }
+  .bottom-li {
+    padding: 0;
+  }
 
 @media screen and (min-width: 1024px) {
   nav {
@@ -169,5 +209,14 @@ footer {
   }
   ul:hover {
     background: none;
+  }
+   .bottom-nav {
+    display: flex;
+  }
+  .backtop {
+    display: none;
+  }
+  .name {
+    margin: 41px;
   }
 }
