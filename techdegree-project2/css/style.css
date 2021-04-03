@@ -152,6 +152,9 @@ footer {
     padding: 25px;
     flex-direction: row-reverse;
   }
+  p.about{
+    font-size:16px;
+  }
   .container {
     display: flex;
     flex-wrap: wrap;
@@ -195,7 +198,9 @@ footer {
     justify-content: space-between;
     height: 150px;
   }
-
+  p.about{
+    font-size:22px;
+  }
   .portfolio {
     flex-basis: 30%;
   }
